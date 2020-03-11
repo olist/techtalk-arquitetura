@@ -1,0 +1,1 @@
+web: bin/start-nginx gunicorn -c gunicorn_config.py --chdir=matches-api matches_api.wsgi:application

@@ -1,0 +1,1 @@
+service: python -m championship_service

@@ -1,0 +1,1 @@
+web: bin/start-nginx gunicorn -c gunicorn_config.py --chdir=players-api players_api.wsgi:application
